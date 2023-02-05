@@ -10,7 +10,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    searchMovies("Spiderman"); // comment added
+    searchMovies("Spiderman");
   }, []);
   return (
     <div>
