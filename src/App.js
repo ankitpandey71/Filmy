@@ -8,7 +8,7 @@ const App = () => {
 
     console.log(data.Search);
   };
-
+  // movie search
   useEffect(() => {
     searchMovies("Spiderman");
   }, []);
