@@ -13,14 +13,14 @@ const App = () => {
   }, []);
   return (
     <div>
-      <h1>Filmy</h1> // movie App
+      <h1>Filmy</h1>
       <div>
         <input
           placeholder="Search for movies"
           value="Superman"
           onChange={() => {}}
         />
-        <img src="" onClick={() => {}} alt="" />
+        <img src="" onClick={() => {}} alt="" /> // movie app
       </div>
       <div>{searchMovies}</div>
     </div>
