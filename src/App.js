@@ -13,7 +13,7 @@ const App = () => {
   }, []);
   return (
     <div>
-      <h1>Filmy</h1>
+      <h1>Filmy</h1> // movie App
       <div>
         <input
           placeholder="Search for movies"
