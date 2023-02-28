@@ -20,7 +20,7 @@ const App = () => {
           value="Superman"
           onChange={() => {}}
         />
-        <img src="" onClick={() => {}} alt="" /> // movie app
+        <img src="" onClick={() => {}} alt="" />
       </div>
       <div>{searchMovies}</div>
     </div>
