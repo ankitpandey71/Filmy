@@ -6,11 +6,14 @@ const App = () => {
     const response = await fetch(`${API_URL}&s=${title}`);
     const data = await response.json();
 
-    console.log(data.Search);
+    console.log(data.search);
   };
   useEffect(() => {
     searchMovies("Spiderman");
   }, []);
+
+  // const hello = data.search;
+  // console.log(hello);
   return (
     <div>
       <h1>Filmy</h1>
@@ -22,7 +25,17 @@ const App = () => {
         />
         <img src="" onClick={() => {}} alt="" />
       </div>
-      <div>{searchMovies}</div>
+      {/* <div>
+        {data.search.map((id, ele) => {
+          return (
+            <div key={id}>
+              <ul>
+                <li>{ele.Title}</li>
+              </ul>
+            </div>
+          );
+        })}
+      </div> */}
     </div>
   );
 };
