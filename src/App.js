@@ -12,8 +12,6 @@ const App = () => {
     searchMovies("Spiderman");
   }, []);
 
-  // const hello = data.search;
-  // console.log(hello);
   return (
     <div>
       <h1>Filmy</h1>
@@ -25,7 +23,7 @@ const App = () => {
         />
         <img src="" onClick={() => {}} alt="" />
       </div>
-      {/* <div>
+      <div>
         {data.search.map((id, ele) => {
           return (
             <div key={id}>
@@ -35,7 +33,7 @@ const App = () => {
             </div>
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 };
