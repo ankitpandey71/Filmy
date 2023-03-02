@@ -23,17 +23,7 @@ const App = () => {
         />
         <img src="" onClick={() => {}} alt="" />
       </div>
-      <div>
-        {data.search.map((id, ele) => {
-          return (
-            <div key={id}>
-              <ul>
-                <li>{ele.Title}</li>
-              </ul>
-            </div>
-          );
-        })}
-      </div>
+      <div>{searchMovies}</div>
     </div>
   );
 };
