@@ -23,7 +23,7 @@ const App = () => {
         />
         <img src="" onClick={() => {}} alt="" />
       </div>
-      <div>{searchMovies}</div>
+      <div>{searchMovies}</div>// added another function
     </div>
   );
 };
